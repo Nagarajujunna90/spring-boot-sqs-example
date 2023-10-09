@@ -1,7 +1,12 @@
 server:
   port: 9093
 
-
+spring:
+  jackson:
+    visibility:
+      field: any
+    serialization:
+      indent_output: true
 credentials:
-    access-key: AKIAVU3BP7RKQTF6WO4B
-    secret-key: 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
+  access-key: ${AWS_ACCESS_KEY_ID}
+  secret-key: ${AWS_SECRET_ACCESS_KEY}
