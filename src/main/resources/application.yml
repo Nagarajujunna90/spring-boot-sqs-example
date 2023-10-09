@@ -1,0 +1,7 @@
+server:
+  port: 9093
+
+
+credentials:
+    access-key: AKIAVU3BP7RKQTF6WO4B
+    secret-key: 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
