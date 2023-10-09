@@ -46,7 +46,7 @@ public class SqsController {
         sqsClient.createQueue(createQueueRequest);
     }
 
-    @GetMapping("/message")
+    @GetMapping("/send")
     public void sendMessage() {
         sqsClient();
         GetQueueUrlRequest getQueueRequest = GetQueueUrlRequest.builder()
